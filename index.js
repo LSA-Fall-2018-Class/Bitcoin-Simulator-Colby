@@ -79,15 +79,19 @@ alert ("My total bitcoin is " + temp);
 //-----------------------------
 var myVar;
 
-function myFunction() {
-  myVar = setTimeout(function(){ alert("You have gained 1 Bitcoin from the central servers."); }, 60000);
-}
+// function myFunction() {
+//   myVar = setTimeout(function(){ alert("You have gained 1 Bitcoin from the central servers."); }, 3000);
+// }
 
-function myStopFunction() {
-  clearTimeout(myVar);
-}
+myVar = setTimeout(function(){ alert("You have gained 1 Bitcoin from the central servers."); }, 3000);
 
-clearTimeout(id_of_settimeout)
+
+
+// function myStopFunction() {
+//    clearTimeout(myVar);
+// }
+
+// clearTimeout(id_of_settimeout)
 //-----------------------------
 
 // console.log(bchain[1].amount);
